@@ -1,0 +1,25 @@
+{
+  "name": "08-team-profile-generator",
+  "version": "1.0.0",
+  "description": "App to generate a team profile using employees data",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpecheverryp/team-profile-generator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpecheverryp/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/jpecheverryp/team-profile-generator#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
