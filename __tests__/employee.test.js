@@ -1,4 +1,3 @@
-const { it, expect } = require("@jest/globals");
 const Employee = require("../lib/Employee");
 
 describe("Employee", () => {
@@ -12,7 +11,7 @@ describe("Employee", () => {
             // Creating object
             const employee = new Employee(name, id, email);
 
-            //making sure the object has the right parameters
+            // Making sure the object has the right parameters
             expect(employee.name === name);
             expect(employee.id === id);
             expect(employee.email === email);
@@ -76,7 +75,7 @@ describe("Employee", () => {
             // Calling method
             const value = employee.getRole();
 
-            // Checknig if the method gave the correct value
+            // Checking if the method gave the correct value
             expect(value === 'Employee');
         });
     });
