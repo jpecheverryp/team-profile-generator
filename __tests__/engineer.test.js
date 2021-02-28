@@ -36,6 +36,22 @@ describe("Engineer", () => {
             
             // Checking if the method gave the right value
             expect(value === expected);
+        });
+        it("should return the github account when you call getGithub()", () => {
+            // Parameters
+            const name = "juan";
+            const id = 1;
+            const email = "juan@example.com";
+            const github = "jpecheverryp";
+
+            // Object init
+            const engineer = new Engineer(name, id, email, github);
+
+            // Method call
+            const value = engineer.getGithub();
+
+            // Checking result
+            expect(value === github);
         })
-    })
+    });
 });
