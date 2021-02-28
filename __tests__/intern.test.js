@@ -36,6 +36,21 @@ describe("Intern", () => {
             
             // Checking if the method gave the right value
             expect(value === expected);
+        });
+        it("should return the schhol when you call the getSchool method", () =>{
+            // Creating Parameters
+            const name = "juan";
+            const id = 1;
+            const email = "juan@example.com";
+            const school = "GA Tech";
+
+            const intern = new Intern(name, id, email, school);
+
+            // Calling Method
+            const value = intern.getSchool();
+
+            // Checking if the method gave the right value
+            expect(value === school);
         })
-    })
+    });
 });
