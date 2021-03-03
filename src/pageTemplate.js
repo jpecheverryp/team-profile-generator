@@ -17,7 +17,7 @@ const pageTemplate =
         <h1 class="text-center">My Team</h1>
     </div>
 
-    <div class="container">
+    <div class="container mt-4">
         <div class="card-group">
             {{{Cards}}}
         </div>
