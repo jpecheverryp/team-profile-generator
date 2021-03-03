@@ -1,5 +1,5 @@
 const engineerTemplate =
-`<div class="card>
+`<div class="card">
     <div class="card-header bg-primary text-white">
         <h5 class="card-title">{{name}}</h5>
         <h6>Engineer</h6>
